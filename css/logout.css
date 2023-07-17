@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  width:230px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+.wrap .logout{
+  background-color:#f9ad7e;
+    border: 1px solid #e6e6e6;
+  line-height: 250px;
+  text-align: center;
+  font-size: 30px;
+}
+.wrap .logout:hover{
+  font-weight: bold;
+}

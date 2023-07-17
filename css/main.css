@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  width: 460px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 300px;
+  display: flex;
+}
+
+.wrap div {
+
+  width: 230px;
+  border: 1px solid #e6e6e6;
+  line-height: 250px;
+  text-align: center;
+  font-size: 30px;
+}
+.wrap div:hover{
+  font-weight: bold;
+}
+.wrap .login{
+  background-color:#f9ad7e;
+  margin-right: 20px;
+}
+.wrap .join{
+  background-color: #b8f1c3;
+}
